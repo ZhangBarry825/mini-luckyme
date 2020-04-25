@@ -1,0 +1,1 @@
+<view class="container"><canvas class="myCanvas" style="{{'width:300rpx;height:300rpx;'+('transform:rotate('+rotate+'deg)')}}" canvas-id="firstCanvas"></canvas><button type="default" data-event-opts="{{[['tap',[['StartGame']]]]}}" bindtap="__e">按钮</button></view>

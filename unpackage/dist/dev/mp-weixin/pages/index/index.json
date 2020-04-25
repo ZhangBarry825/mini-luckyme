@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "主页",
+  "usingComponents": {
+    "random-compass": "/components/random-compass/random-compass"
+  }
+}
