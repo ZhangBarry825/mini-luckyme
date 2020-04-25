@@ -1,7 +1,7 @@
 <template>
     <view class="container">
         <canvas class="myCanvas" :style="'transform:rotate('+rotate+'deg)'" style="width: 300rpx; height: 300rpx" canvas-id="firstCanvas"></canvas>
-        <button type="default" @click="StartGame()">按钮</button>
+        <button type="default" @click="StartGame()">按钮1</button>
     </view>
 </template>
 
