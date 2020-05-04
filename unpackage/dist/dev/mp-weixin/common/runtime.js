@@ -104,11 +104,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/random-compass/random-compass":1};
+/******/ 		var cssChunks = {"components/music-player/music-player":1,"components/random-compass/random-compass":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/random-compass/random-compass":"components/random-compass/random-compass"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/music-player/music-player":"components/music-player/music-player","components/random-compass/random-compass":"components/random-compass/random-compass"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

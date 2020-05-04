@@ -1,11 +1,13 @@
 <template>
 	<view class="container">
-		<RandomCompass></RandomCompass>
+<!--		<RandomCompass></RandomCompass>-->
+		<MusicPlayer></MusicPlayer>
 	</view>
 </template>
 
 <script>
 	import RandomCompass from 'components/random-compass/random-compass'
+	import MusicPlayer from 'components/music-player/music-player'
 	export default {
 		data() {
 			return {
@@ -13,7 +15,8 @@
 			}
 		},
 		components:{
-			RandomCompass:RandomCompass
+			RandomCompass:RandomCompass,
+			MusicPlayer:MusicPlayer,
 		},
 		methods: {
 
@@ -28,5 +31,6 @@
 
 <style>
 	.container {
+
 	}
 </style>

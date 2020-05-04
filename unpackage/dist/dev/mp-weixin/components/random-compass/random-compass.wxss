@@ -39,8 +39,8 @@
   position: relative;
 }
 .container .myCanvas {
-    -webkit-transform: all 6s ease;
-    -webkit-transition: all 6s ease;
-    transition: all 6s ease;
+  -webkit-transform: all 6s ease;
+  -webkit-transition: all 6s ease;
+  transition: all 6s ease;
 }
 

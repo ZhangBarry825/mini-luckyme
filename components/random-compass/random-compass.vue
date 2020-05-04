@@ -31,9 +31,6 @@
             if (num % 2 !== 0){
                 alert('请配置偶数奖项');
             }
-
-            var btn = document.getElementById('btn');
-
             for (var i = 0; i < num; i++) {
                 // 保存当前状态
                 ctx.save();

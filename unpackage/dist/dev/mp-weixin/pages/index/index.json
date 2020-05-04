@@ -1,6 +1,7 @@
 {
-  "navigationBarTitleText": "主页",
+  "navigationBarTitleText": "幸运如我",
   "usingComponents": {
-    "random-compass": "/components/random-compass/random-compass"
+    "random-compass": "/components/random-compass/random-compass",
+    "music-player": "/components/music-player/music-player"
   }
 }
