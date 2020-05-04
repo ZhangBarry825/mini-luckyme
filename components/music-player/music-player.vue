@@ -302,7 +302,6 @@
 
 <style lang="scss">
     .container:after {
-
         content: "";
         width: 100%;
         height: 100%;
@@ -310,7 +309,8 @@
         left: 0;
         top: 0;
         background: inherit;
-        filter: blur(20px);
+        filter: blur(10px);
+        background-blend-mode: darken;
         z-index: 3;
 
     }
@@ -354,7 +354,7 @@
             justify-content: center;
             align-items: center;
             z-index: 10;
-            padding: 220rpx 0;
+            padding: 270rpx 0;
 
             .player-box1 {
                 display: flex;

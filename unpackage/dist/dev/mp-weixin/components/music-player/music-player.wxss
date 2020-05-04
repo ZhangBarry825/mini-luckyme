@@ -32,8 +32,9 @@
   left: 0;
   top: 0;
   background: inherit;
-  -webkit-filter: blur(20rpx);
-          filter: blur(20rpx);
+  -webkit-filter: blur(10rpx);
+          filter: blur(10rpx);
+  background-blend-mode: darken;
   z-index: 3;
 }
 .container {
@@ -86,7 +87,7 @@
   -webkit-align-items: center;
           align-items: center;
   z-index: 10;
-  padding: 220rpx 0;
+  padding: 270rpx 0;
 }
 .container .player-box .player-box1 {
   display: -webkit-box;
