@@ -1,0 +1,1 @@
+<view class="list-container"><view class="buttons"></view><view class="lists"><block wx:for="{{playList}}" wx:for-item="item" wx:for-index="index"><view data-event-opts="{{[['tap',[['selectPlay',[index]]]]]}}" class="list" bindtap="__e">{{item}}</view></block></view></view>
